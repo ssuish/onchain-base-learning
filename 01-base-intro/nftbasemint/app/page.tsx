@@ -12,9 +12,7 @@ import {
 
 export default function App() {
   return (
-    <NFTMintCard
-      contractAddress="0x5E460559B2d57373a5D03CC096FaFFd021CE39F7"
-    >
+    <NFTMintCard contractAddress="0x5E460559B2d57373a5D03CC096FaFFd021CE39F7">
       <NFTCreator />
       <NFTMedia />
       <NFTCollectionTitle />
